@@ -58,7 +58,7 @@ table {
 }
 
 p, ul li, ol li{
-    font-size: 26px;
+    font-size: 16px;
     line-height: 23px;
     margin-bottom: 20px;
 }
@@ -73,22 +73,104 @@ p, ul li, ol li{
     font-family: 'HelveticaNeue-Thin';
     src: local('HelveticaNeue-Thin.otf'), url('HelveticaNeue-Thin.otf') format('opentype');
 }
-
-h1{
-    color: red;
+*{
+    box-sizing: border-box;
     
-    text-align: center;
+}
+body{
     font-family: 'montserrat', sans-serif;
 }
 .container{
     max-width: 1100px;
     width: 100%;
     margin: 0 auto;
-    
+    position:relative;
+    overflow: hidden;
+    padding: 40px 20px;
+}
+
+#hero{
+    background-image: linear-gradient(rgba(218, 51, 46, 0.6), rgba(218, 51, 46, 0.6)), url('../img/hero_bg.png');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+h2{
+    font-size: 52px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.nav li{
+    display: inline-block;
     
 }
+.nav li a{
+    color: white;
+    text-transform:uppercase;
+    text-decoration: none;
+    margin-left: 30px;
+    padding-bottom: 3px;
+    border-bottom: 4px solid white transparent;
+}
+.nav li a:hover{
+    border-bottom: 4px solid white;
+    transition: border-bottom 0.1s, color 0.1s;
+}
+
+#hero h2{
+    color: white;
+    margin-bottom: 40px;
+}
+.cta{
+    display: inline-block;
+    margin-top: 90px;
+    position:relative;
+}
+.imgs{
+    float: right;
+    position: absolute;
+    right: -135px;
+    
+}
+.iphone{
+    width: 85%;
+    position: relative;
+    margin-bottom: -240px;
+}
+
+.cta-info{
+    width: 60%;
+    padding-right: 150px;
+    float: left;
+}
+
+.hero-para{
+    font-size: 36px;
+    line-height: 40px;
+    font-family: 'HelveticaNeue-Thin';
+    color: white;
+    margin-bottom: 55px;
+    
+}
+.cta-button{
+    padding: 23px 35px;
+    background: #282828;
+    color: white;
+    text-decoration: none;
+    border-radius: 50px;
+}
+.cta-button:hover{
+    background: #383737;
+   transition: 0.3s;
+}
+.phone-icon{
+    vertical-align: middle;
+    padding-right: 20px;
+}
+/*
 p{
     font-family: 'HelveticaNeue-Thin';
-    color: blue;
+    
     
 }
+*/
