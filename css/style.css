@@ -206,15 +206,48 @@ h2{
     
 }
 
+/*nose section*/
 
+#nose{
+    background: url('../img/ladyNose.png');
+    background-size: cover;
+    background-position: center;
+}
 
+.download-info{
+    width:50%;
+    padding:200px 0px;
+    
+}
 
+#nose h2{
+    margin-bottom: 40px;
+    color: white;
+}
+.nose-p{
+    font-size: 24px;
+    line-height: 30px;
+    font-family: 'HelveticaNeue-Thin';
+    padding-bottom: 30px;
+}
 
+.download-btn{
+    background: #d9332d;
+    padding: 15px;
+    border-radius: 50px;
+    color: white;
+    text-decoration: none;
+    
+}
 
-
-
-
-
+.download-btn:hover{
+    background:#c33934;
+    transition: 0.3s;
+    
+}
+.reddish{
+    color: #f55150;
+}
 
 
 
