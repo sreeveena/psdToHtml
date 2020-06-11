@@ -7,4 +7,3 @@ PSD image
 
 HTML gif
 ![gif](./img/social.gif)
-original
