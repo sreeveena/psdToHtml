@@ -303,16 +303,38 @@ footer p{
     font-size:10px;
 }
 
+/*copyright section*/
 
 
+.copyright.container{
+    padding: 30px 0px;
+    text-align: center;
+    
+}
 
+.copyright{
+    background-color: #d7dedc;
+}
+.inline{
+    display: inline-block;
+    font-size: 20px;
+    vertical-align: middle;
+}
+.cr{
+    margin-right: 40px;
+}
 
+.fb, .db, .tw{
+    margin-right: 40px;
+}
 
+/*to have lines in the copyright section*/
 
-
-
-
-
+.cr:after{
+    content:"";
+    border: 1px solid #555555;
+    margin-left: 35px;
+}
 
 
 
